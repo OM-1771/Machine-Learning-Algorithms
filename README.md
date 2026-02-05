@@ -1,6 +1,7 @@
 📌 Here I Provide All the  Machine Learning Algorithms
 
-This repository contains implementations of Supervised Machine Learning algorithms with clear examples and datasets.
+This repository contains implementations of All Important  Machine Learning algorithms with clear examples and datasets.
+Lets Start :
 
 1️⃣ Simple Linear Regression
 
