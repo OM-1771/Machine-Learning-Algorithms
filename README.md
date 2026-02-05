@@ -34,3 +34,12 @@ Implemented Ridge Regression (L2 Regularization) to reduce overfitting.
 Objective: Improve model performance by penalizing large coefficients.
 
 Type: Regression (Regularized)
+
+
+5️⃣ Lasso Regression
+
+Implemented Lasso Regression (L1 Regularization) for feature selection and overfitting control.
+
+Objective: Reduce overfitting and automatically remove less important features by shrinking some coefficients to zero.
+
+Type: Regression (Regularized)
