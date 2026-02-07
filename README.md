@@ -35,7 +35,6 @@ Objective: Improve model performance by penalizing large coefficients.
 
 Type: Regression (Regularized)
 
-
 5️⃣ Lasso Regression
 
 Implemented Lasso Regression (L1 Regularization) for feature selection and overfitting control.
