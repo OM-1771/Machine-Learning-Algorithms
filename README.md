@@ -42,3 +42,12 @@ Implemented Lasso Regression (L1 Regularization) for feature selection and overf
 Objective: Reduce overfitting and automatically remove less important features by shrinking some coefficients to zero.
 
 Type: Regression (Regularized)
+6️⃣ 🌳 Decision Tree Classifier
+Decision Tree is trained on the same dataset (`student-performance.csv`) to predict `final_grade`.
+
+Includes:
+- Confusion Matrix
+- Classification Report
+- Tree visualization using `plot_tree()`
+
+---
