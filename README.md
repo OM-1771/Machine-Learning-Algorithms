@@ -42,7 +42,10 @@ Implemented Lasso Regression (L1 Regularization) for feature selection and overf
 Objective: Reduce overfitting and automatically remove less important features by shrinking some coefficients to zero.
 
 Type: Regression (Regularized)
-6️⃣ 🌳 Decision Tree Classifier
+
+
+
+6️⃣ 🌳 ## Decision Tree Classifier
 Decision Tree is trained on the same dataset (`student-performance.csv`) to predict `final_grade`.
 
 Includes:
@@ -51,3 +54,22 @@ Includes:
 - Tree visualization using `plot_tree()`
 
 ---
+
+---
+
+## 🧩 Support Vector Machine (SVM) Classifier
+Dataset: `student-performance.csv`  
+Target column: `final_grade`
+
+This implementation uses an **SVM (Support Vector Classifier)** for multiclass classification.
+
+### Steps included:
+- One-Hot Encoding for categorical features
+- Standard Scaling for numeric features (important for SVM)
+- Train-test split with stratification
+- Model training using `SVC`
+- Evaluation using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+- Confusion Matrix visualization
