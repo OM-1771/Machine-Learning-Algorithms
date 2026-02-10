@@ -57,7 +57,7 @@ Includes:
 
 ---
 
-## 🧩 Support Vector Machine (SVM) Classifier
+7️⃣ 🧩 Support Vector Machine (SVM) Classifier
 Dataset: `student-performance.csv`  
 Target column: `final_grade`
 
