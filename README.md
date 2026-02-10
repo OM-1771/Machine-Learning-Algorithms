@@ -53,9 +53,7 @@ Includes:
 - Classification Report
 - Tree visualization using `plot_tree()`
 
----
 
----
 
 7️⃣ 🧩 Support Vector Machine (SVM) Classifier
 Dataset: `student-performance.csv`  
