@@ -71,3 +71,28 @@ This implementation uses an **SVM (Support Vector Classifier)** for multiclass c
   - Confusion Matrix
   - Classification Report
 - Confusion Matrix visualization
+
+
+## 8️⃣  🌲 Random Forest Classifier
+Dataset: `student-performance.csv`  
+Target column: `final_grade`
+
+Random Forest is an ensemble learning algorithm that builds multiple decision trees and combines their results to improve accuracy and reduce overfitting.
+
+### Steps included:
+- One-Hot Encoding for categorical features
+- Train-test split with stratification
+- Model training using `RandomForestClassifier`
+- Evaluation using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+- Confusion Matrix visualization
+
+### Hyperparameters used:
+- `n_estimators=200` → number of trees
+- `max_depth=12` → controls tree depth to reduce overfitting
+- `min_samples_split=10` → prevents unnecessary splits
+- `min_samples_leaf=5` → avoids tiny leaf nodes
+- `class_weight="balanced"` → handles grade imbalance
+- `n_jobs=-1` → faster training using all CPU cores
