@@ -96,3 +96,27 @@ Random Forest is an ensemble learning algorithm that builds multiple decision tr
 - `min_samples_leaf=5` → avoids tiny leaf nodes
 - `class_weight="balanced"` → handles grade imbalance
 - `n_jobs=-1` → faster training using all CPU cores
+
+9️⃣ ---
+
+## 🤝 K-Nearest Neighbors (KNN) Classifier
+Dataset: `student-performance.csv`  
+Target column: `final_grade`
+
+KNN is a distance-based classification algorithm that predicts the class based on the **K nearest data points**.
+
+### Steps included:
+- One-Hot Encoding for categorical features
+- Standard Scaling for numeric features (important for KNN)
+- Train-test split with stratification
+- Model training using `KNeighborsClassifier`
+- Evaluation using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+- Confusion Matrix visualization
+
+### Hyperparameters used:
+- `n_neighbors=7` → number of neighbors (K)
+- `weights="distance"` → closer neighbors have more influence
+- `p=2` → Euclidean distance
