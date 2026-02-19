@@ -120,3 +120,46 @@ KNN is a distance-based classification algorithm that predicts the class based o
 - `n_neighbors=7` → number of neighbors (K)
 - `weights="distance"` → closer neighbors have more influence
 - `p=2` → Euclidean distance
+
+
+9️⃣ 🧠###   Naive Bayes Classifier (GaussianNB)
+
+Dataset: student-performance.csv
+Target column: final_grade
+
+Naive Bayes is a probability-based classification algorithm built on Bayes’ Theorem.
+This implementation uses Gaussian Naive Bayes, which works well when features are continuous (like scores, attendance, and study hours).
+
+Steps included:
+
+One-Hot Encoding for categorical features
+
+Numerical features passed directly
+
+Train-test split with stratification
+
+Model training using GaussianNB
+
+Evaluation using:
+
+Accuracy Score
+
+Confusion Matrix
+
+Classification Report
+
+Confusion Matrix visualization
+
+Final Grade Distribution plot
+
+Model Performance:
+
+Achieved accuracy: ~89.86%
+
+Why GaussianNB?
+
+Suitable for continuous numerical features
+
+Fast training and prediction
+
+Works well as a baseline model for multi-class classification
