@@ -122,7 +122,7 @@ KNN is a distance-based classification algorithm that predicts the class based o
 - `p=2` → Euclidean distance
 
 
-9️⃣ 🧠###   Naive Bayes Classifier (GaussianNB)
+🔟 🧠###   Naive Bayes Classifier (GaussianNB)
 
 Dataset: student-performance.csv
 Target column: final_grade
