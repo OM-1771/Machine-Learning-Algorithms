@@ -17,7 +17,7 @@ Implemented Multiple Linear Regression using multiple input features.
 
 Objective: Predict a continuous target variable using more than one independent variable.
 
-Type: Regression
+Type: Regression_Model
 
 3️⃣ Logistic Regression
 
